@@ -29,11 +29,11 @@ css = """
 }
 
 .bojning {
-    padding: 10px;
     background-color: aliceblue;
     color: black;
     font-size: 15px;
     margin-bottom: 10px;
+    line-height: 3;
 }
 
 .answer {
@@ -101,11 +101,14 @@ if __name__ == '__main__':
             open('media/' + filename, 'wb').write(r.content)
             package.media_files.append('media/'+filename)
 
+            bojning = info.get('bojning')
+            kon = info.get('kon')
+
             note = QuestionOnlyHashNote(model=model, fields=[
                 word,
-                '||'.join(info.get('bojning')),
+                '||'.join(bojning) if bojning else '',
                 info.get('part_of_speech'),
-                info.get('kon'),
+                kon if kon else '',
                 example,
                 translation,
                 f'[sound:{filename}]'

@@ -27,5 +27,5 @@ def get_word_info(word):
 
 
 if __name__ == '__main__':
-    r = get_word_info('syd')
+    r = get_word_info('tyve')
     print(r)
