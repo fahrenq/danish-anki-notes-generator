@@ -95,11 +95,14 @@ if __name__ == '__main__':
             info = get_word_info(word)
 
             # audio
-            audio_url = info.get('audio')[0]
-            filename = audio_url.split('/')[-1]
-            r = requests.get(audio_url)
-            open('media/' + filename, 'wb').write(r.content)
-            package.media_files.append('media/'+filename)
+            if info.get('audio') is not None:
+                audio_url = info.get('audio')[0]
+                filename = audio_url.split('/')[-1]
+                r = requests.get(audio_url)
+                open('media/' + filename, 'wb').write(r.content)
+                package.media_files.append('media/'+filename)
+            else:
+                filename = None
 
             bojning = info.get('bojning')
             kon = info.get('kon')
@@ -111,7 +114,7 @@ if __name__ == '__main__':
                 kon if kon else '',
                 example,
                 translation,
-                f'[sound:{filename}]'
+                f'[sound:{filename}]' if filename is not None else ''
             ])
             deck.add_note(note)
             print(f'Added note for "{word}"')
