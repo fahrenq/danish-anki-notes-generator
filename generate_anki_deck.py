@@ -106,12 +106,13 @@ if __name__ == '__main__':
 
             bojning = info.get('bojning')
             kon = info.get('kon')
+            part_of_speech = info.get('part_of_speech')
 
             note = QuestionOnlyHashNote(model=model, fields=[
                 word,
-                '||'.join(bojning) if bojning else '',
-                info.get('part_of_speech'),
-                kon if kon else '',
+                ' || '.join(bojning) if bojning is not None else '',
+                part_of_speech if part_of_speech is not None else '',
+                kon if kon is not None else '',
                 example,
                 translation,
                 f'[sound:{filename}]' if filename is not None else ''
