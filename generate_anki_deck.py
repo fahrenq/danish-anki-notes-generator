@@ -3,6 +3,13 @@ import genanki
 import requests
 
 
+def safe_list_get(l, idx, default):
+    try:
+        return l[idx]
+    except IndexError:
+        return default
+
+
 class QuestionOnlyHashNote(genanki.Note):
     @property
     def guid(self):
@@ -10,6 +17,7 @@ class QuestionOnlyHashNote(genanki.Note):
 
 
 deck = genanki.Deck(2059400110, 'Danish')
+
 
 package = genanki.Package(deck)
 package.media_files = []
@@ -86,17 +94,36 @@ if __name__ == '__main__':
     with open('./words.csv') as f:
         for line in f.readlines():
             tokenised = line.strip().split('|')
-            if len(tokenised) == 2:
-                [word, translation] = tokenised
-                example = ""
-            elif len(tokenised) == 3:
-                [word, translation, example] = tokenised
+
+            word = tokenised[0]
+            translation = tokenised[1]
+            audio_position = safe_list_get(tokenised, 2, None)
+            example = safe_list_get(tokenised, 3, "")
+
+            if audio_position == "":
+                audio_position = None
+
+            if audio_position is not None:
+                audio_position = int(audio_position)
 
             info = get_word_info(word)
 
             # audio
             if info.get('audio') is not None:
-                audio_url = info.get('audio')[0]
+                audio_urls = info.get('audio')
+
+                if len(audio_urls) > 1 and audio_position is None:
+                    print(
+                        'ATTENTION: No audio_position specified for a word that has more than one audio file. Defaulting to the first variant.')
+                    print(
+                        f'Word: {word}, Translation: {translation}, Dictionary URL: {info.get("dictionary_url")}')
+                    audio_position = 0
+                    # raise 'More than 1 audio found, audio position not specified'
+
+                if len(audio_urls) == 1:
+                    audio_position = 0
+
+                audio_url = audio_urls[audio_position]
                 filename = audio_url.split('/')[-1]
                 r = requests.get(audio_url)
                 open('media/' + filename, 'wb').write(r.content)

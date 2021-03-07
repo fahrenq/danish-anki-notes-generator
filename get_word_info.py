@@ -49,7 +49,8 @@ def get_word_info(word):
         'bojning': bojning,
         'audio': audio,
         'part_of_speech': part_of_speech,
-        'kon': kon
+        'kon': kon,
+        'dictionary_url': link
     }
 
 

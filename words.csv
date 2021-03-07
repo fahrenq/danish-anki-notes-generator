@@ -1,11 +1,11 @@
 tyve|twenty (20)
-kat|cat|Min kat er hvid.
+kat|cat||Min kat er hvid.
 bro|bridge
-sprog|language|Hvad sprog taler du?
+sprog|language||Hvad sprog taler du?
 udtale|pronunciation
 blød|soft
-af|of
-flot|beautiful, nice|En flot bil.
+af|of|0
+flot|beautiful, nice||En flot bil.
 tredive|thirty (30)
 fyrre|forty (40)
 halvtreds|fifty (50)
@@ -13,24 +13,24 @@ tres|sixty (60)
 halvfjerds|seventy (70)
 firs|eighty (80)
 halvfems|ninety (90)
-hundrede|hundred (100)
-tusind|thousand (1 000)
-hvordan|how
-hvad|what
-hvem|who
-hvorfor|why
-hvor|where
-hvilken|which
+hundrede|hundred (100)|0
+tusind|thousand (1 000)|0
+hvordan|how|0
+hvad|what|0
+hvem|who|0
+hvorfor|why|0
+hvor|where|0
+hvilken|which|0
 hvornår|when
 hvad tid|when
 hvor meget|how much
 hvor mange|how many
 hvis|whoes
 hvor længe|for how long
-hvor lang tid| for how long
-gammel|old
-bog|book
-blyant|pencil
+hvor lang tid|for how long
+gammel|old|0
+bog|book|0
+blyant|pencil|0
 kop|cup
 ur|clock, watch
 nøgle|key
@@ -42,14 +42,14 @@ hun|she
 viskelæder|eraser
 tror|think
 skole|school
-hendes|her|Det er ikke henders.
-måske|maybe
+hendes|her|0|Det er ikke henders.
+måske|maybe|0
 kvinde|woman
-mand|man, husband
-mænd|men (plural)
+mand|man, husband|0
+mænd|men (plural)|1
 forskellig|different, various, diverse
 lærer|teacher
-skal vi|should we _ / shell we _|Skal vi spise frokost nu?
+skal vi|should we _ / shell we _||Skal vi spise frokost nu?
 Hvad sprog taler du?|What language do you speak?
 Hvad hedder du til efternavn?|What's your last name?
 Hvordan staver du det?|How do you spell it?
@@ -75,10 +75,10 @@ elske|love
 had|hate
 regn|rain
 møde|to meet, meeting, conference
-hver|every
+hver|every|0
 Hun hader regnvejr.|She hates rainy weather.
-være|be, have, make, быть|Hun har været i Danmark i to år.
-tog|train
+være|be, have, make, быть|0|Hun har været i Danmark i to år.
+tog|train|0
 køre|drive
 bil|car
 Hvad tid møder du?|What time do you meet?
@@ -94,23 +94,23 @@ arbejdsplads|workplsace
 tage|take
 få|get, receive
 arbejdsgiver|employer
-fortæl|tell, recite
-skrive|write
+fortælle|tell, recite|0
+skrive|write|0
 kone|wife
-mor|mother
-far|father
+mor|mother|0
+far|father|0
 forældre|parents
 ægtepar|couple
-datter|daughter
-døtre|daughters (plural)
+datter|daughter|0
+døtre|daughters (plural)|1
 søn|son
 søster|sister
-bror|brother
-brødre|brothers (plural)
+bror|brother|0
+brødre|brothers (plural)|3
 lillebror|little brother
 små brødre|little brothers (plural)
 storesøster|big sister
-død|death
+død|death|0
 besøge|visit
 alene|alone
 læse|read, study
@@ -129,19 +129,19 @@ Hun står op.|She stands up.
 brusebad|shower
 Hun tager brusebad.|She takes a shower.
 børste|brush, to brush
-tand|tooth
-tænde|teeth
+tand|tooth|0
+tænder|teeth
 barbere|shave
 tøj|clothes
 Hun tager tøj på.|She gets dressed. / She puts clothes on.
-vække|make someone wake up, разбудить
+vække|make someone wake up, разбудить|0
 aflever|hand in, сдать
 Han tager af sted hjemmefra.|He leaves home.
 Han tager på arbejde.|He goes to work.
 Alt vel?|All good?
 sød|sweet
 lejlighed|apartment
-altid|always
+altid|always|0
 frisk|fresh
 træt|tried
 aldrig|never
