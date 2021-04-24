@@ -4,7 +4,6 @@ bro|bridge
 sprog|language||Hvad sprog taler du?
 udtale|pronunciation
 blød|soft
-af|of|0
 flot|beautiful, nice||En flot bil.
 tredive|thirty (30)
 fyrre|forty (40)
@@ -40,56 +39,35 @@ jakke|jacket
 han|he
 hun|she
 viskelæder|eraser
-tror|think
+tro|to think, to belive
 skole|school
 hendes|her|0|Det er ikke henders.
 måske|maybe|0
 kvinde|woman
 mand|man, husband|0
-mænd|men (plural)|1
 forskellig|different, various, diverse
 lærer|teacher
 skal vi|should we _ / shell we _||Skal vi spise frokost nu?
-Hvad sprog taler du?|What language do you speak?
-Hvad hedder du til efternavn?|What's your last name?
-Hvordan staver du det?|How do you spell it?
+stave|spell
 gift|married
 arbejde|work, occupation, job
-Hvordan kommer du på arbejde?|How do you get to work?
-Jeg tager bussen.|I'm taking the bus.
-Hvad laver du?|What are you doing?
 lave|make, do
 om|about
-Hvor længe det tager?|How long it takes?
-Har du arbejde?|Do you have work?
-Hvor er dit arbejde?|Where is your work?
-Hvilken bus tager du?|Which bus do you take?
-Hun har været i Danmark i to år.|She has been in Denmark for two years.
 men|but
-Jeg kan godt lide Danmark.|I like Denmark.
 godt lide|like
 ikke lide|dislike
 vejr|weather
-Jeg elsker dig.|I love you.
 elske|love
 had|hate
 regn|rain
 møde|to meet, meeting, conference
 hver|every|0
-Hun hader regnvejr.|She hates rainy weather.
 være|be, have, make, быть|0|Hun har været i Danmark i to år.
 tog|train|0
 køre|drive
 bil|car
-Hvad tid møder du?|What time do you meet?
-Det tager ti minutter.|It takes ten minutes.
-Hun har tre børn.|She has three children.
 fordi|because
-Hvor længe har han været i Danmark?|For how long has he been in Denmark?
-Hvad sprog taler Anna og Miguel sammen?|What language do Anna and Miguel speak together?
 samme|same
-Hvor lang tid tager det?|How long will it take?
-Tom arbejder på en restaurant.|Tom works at a restaurant.
 arbejdsplads|workplsace
 tage|take
 få|get, receive
@@ -99,82 +77,57 @@ skrive|write|0
 kone|wife
 mor|mother|0
 far|father|0
-forældre|parents
+forælder|parent
 ægtepar|couple
 datter|daughter|0
-døtre|daughters (plural)|1
 søn|son
 søster|sister
 bror|brother|0
-brødre|brothers (plural)|3
-lillebror|little brother
-små brødre|little brothers (plural)
-storesøster|big sister
 død|death|0
 besøge|visit
 alene|alone
-læse|read, study
-savner|miss
+læse|to read, to study
+savne|miss
 tænke|think
 tit|often
 selvfølgelig|of course
 enlig|single
-veninde|friend
-skil|divorce
+skille|separate, divorce
 søskende|siblings
 vækkeur|alarm clock
 vågne|wake (up)
 stå|stand
-Hun står op.|She stands up.
 brusebad|shower
-Hun tager brusebad.|She takes a shower.
 børste|brush, to brush
 tand|tooth|0
-tænder|teeth
 barbere|shave
 tøj|clothes
-Hun tager tøj på.|She gets dressed. / She puts clothes on.
 vække|make someone wake up, разбудить|0
-aflever|hand in, сдать
-Han tager af sted hjemmefra.|He leaves home.
-Han tager på arbejde.|He goes to work.
-Alt vel?|All good?
+aflevere|hand in, сдать
+vel|well, good
 sød|sweet
 lejlighed|apartment
 altid|always|0
 frisk|fresh
-træt|tried
+træt|tired
 aldrig|never
-går ud i køkkenet|walks to the kitchen
 sult|hunger
-sulten|hungry
 nogle gange|sometimes
 hen (til)|in horizontal direction or movement towards a certain goal relatively close to the starting point
 normalt|normally
-ikke så tit|not so often
-køber ind|buy groceries
-rydder op|clean up
-ren|(adj) washed, cleaned or sanded and therefore free of dirt, grime, stains or other impurities
-Hun tager hjem.|She's going home.
-Hun slapper af.|She's relaxing.
-Hun laver hjemmearbejde.|She does homework.
+købe ind|buy groceries
+rydde op|clean up
+slappe af|to relax
+hjemmearbejde|home work
 hent|fetch
-Hun henter børnene.|She picks up (fetches) childern.
-Hun gør rent.|She cleans.
-Hun vasker tøj.|She washed clothes.
-vask|wash
+ren|clean
 vaske|to wash
-Hun laver mad.|She is cooking.
-De spiser aftensmad.|They are eating dinner.
-Hun vasker op.|She is doing the dishes.
-Hun går en tur.|She goes for a walk.
-Skal vi drikke kaffe og snakke?|Should we drink coffee and talk?
-Hun ringer til en ven.|She is calling a friend.
-Han hører musik.|He listens to music.
+aftensmad|dinner
+vasker op|do the dishes
+tur|trip, walk, tour
+ven|friend
 høre|to hear
-Han taler med sin kone.|He's talking to his wife.
-De ser fjernsyn.|They are watching television.
 fjernsyn|television
-Hun sover.|She sleepes.
-Hun går i seng.|She is going to bed.
+sove|to sleep
 seng|bed
+skive|slice
