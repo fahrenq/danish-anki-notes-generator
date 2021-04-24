@@ -39,7 +39,7 @@ jakke|jacket
 han|he
 hun|she
 viskelæder|eraser
-tro|to think, to belive
+tro|to think, to belive<br>In Danish, at tro is used for believing, and at synes for opinions: Jeg tror det kommer til at regne vs. Jeg synes du er sød.
 skole|school
 hendes|her|0|Det er ikke henders.
 måske|maybe|0
@@ -69,7 +69,7 @@ bil|car
 fordi|because
 samme|same
 arbejdsplads|workplsace
-tage|take
+tage|take|0
 få|get, receive
 arbejdsgiver|employer
 fortælle|tell, recite|0
@@ -77,7 +77,7 @@ skrive|write|0
 kone|wife
 mor|mother|0
 far|father|0
-forælder|parent
+forælder|parent|0
 ægtepar|couple
 datter|daughter|0
 søn|son
@@ -128,6 +128,11 @@ tur|trip, walk, tour
 ven|friend
 høre|to hear
 fjernsyn|television
-sove|to sleep
+sove|to sleep|0
 seng|bed
 skive|slice
+synes|to think, to belive<br>In Danish, at tro is used for believing, and at synes for opinions: Jeg tror det kommer til at regne vs. Jeg synes du er sød.
+virkelig|really, indeed, actually
+idé|idea
+forhindre|prevent
+vindmølle|windmill
