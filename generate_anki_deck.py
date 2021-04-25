@@ -99,6 +99,7 @@ if __name__ == '__main__':
             translation = tokenised[1]
             audio_position = safe_list_get(tokenised, 2, None)
             example = safe_list_get(tokenised, 3, "")
+            dict_pos = safe_list_get(tokenised, 4, None)
 
             if audio_position == "":
                 audio_position = None
@@ -106,7 +107,7 @@ if __name__ == '__main__':
             if audio_position is not None:
                 audio_position = int(audio_position)
 
-            info = get_word_info(word)
+            info = get_word_info(word, dict_pos)
 
             # audio
             if info.get('audio') is not None:

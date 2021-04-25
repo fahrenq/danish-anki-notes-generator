@@ -4,8 +4,10 @@ import requests
 BASE_URL = "https://ordnet.dk/ddo/ordbog?query="
 
 
-def get_word_info(word):
+def get_word_info(word, pos = None):
     link = BASE_URL + word
+    if (pos is not None):
+        link = link + f",{pos}"
     html = requests.get(link).text
     soup = BeautifulSoup(html, 'html.parser')
 
