@@ -97,8 +97,8 @@ if __name__ == '__main__':
 
             word = tokenised[0]
             translation = tokenised[1]
-            audio_position = safe_list_get(tokenised, 2, None)
-            example = safe_list_get(tokenised, 3, "")
+            example = safe_list_get(tokenised, 2, "")
+            audio_position = safe_list_get(tokenised, 3, None)
             dict_pos = safe_list_get(tokenised, 4, None)
 
             if audio_position == "":

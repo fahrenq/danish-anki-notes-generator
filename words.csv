@@ -1,10 +1,10 @@
 tyve|twenty (20)
-kat|cat||Min kat er hvid.
+kat|cat|Min kat er hvid.
 bro|bridge
-sprog|language||Hvad sprog taler du?
+sprog|language|Hvad sprog taler du?
 udtale|pronunciation
 blød|soft
-flot|beautiful, nice||En flot bil.
+flot|beautiful, nice|En flot bil.
 tredive|thirty (30)
 fyrre|forty (40)
 halvtreds|fifty (50)
@@ -12,14 +12,14 @@ tres|sixty (60)
 halvfjerds|seventy (70)
 firs|eighty (80)
 halvfems|ninety (90)
-hundrede|hundred (100)|0
-tusind|thousand (1 000)|0
-hvordan|how|0
-hvad|what|0
-hvem|who|0
-hvorfor|why|0
-hvor|where|0
-hvilken|which|0
+hundrede|hundred (100)||0
+tusind|thousand (1 000)||0
+hvordan|how||0
+hvad|what||0
+hvem|who||0
+hvorfor|why||0
+hvor|where||0
+hvilken|which||0
 hvornår|when
 hvad tid|when
 hvor meget|how much
@@ -27,9 +27,9 @@ hvor mange|how many
 hvis|if, whoes
 hvor længe|for how long
 hvor lang tid|for how long
-gammel|old|0
-bog|book|0
-blyant|pencil|0
+gammel|old||0
+bog|book||0
+blyant|pencil||0
 kop|cup
 ur|clock, watch
 nøgle|key
@@ -41,13 +41,13 @@ hun|she
 viskelæder|eraser
 tro|to think, to belive<br>In Danish, at tro is used for believing, and at synes for opinions: Jeg tror det kommer til at regne vs. Jeg synes du er sød.
 skole|school
-hendes|her|0|Det er ikke henders.
-måske|maybe|0
+hendes|her|Det er ikke henders.|0
+måske|maybe||0
 kvinde|woman
-mand|man, husband|0
+mand|man, husband||0
 forskellig|different, various, diverse
 lærer|teacher
-skal vi|should we _ / shell we _||Skal vi spise frokost nu?
+skal vi|should we _ / shell we _|Skal vi spise frokost nu?
 stave|spell
 gift|married
 arbejde|work, occupation, job
@@ -61,29 +61,29 @@ elske|love
 had|hate
 regn|rain
 møde|to meet, meeting, conference
-hver|every|0
-være|be, have, make, быть|0|Hun har været i Danmark i to år.
-tog|train|0
+hver|every||0
+være|be, have, make, быть|Hun har været i Danmark i to år.|0
+tog|train||0
 køre|drive
 bil|car
 fordi|because
 samme|same
 arbejdsplads|workplsace
-tage|take|0
+tage|take||0
 få|get, receive
 arbejdsgiver|employer
-fortælle|tell, recite|0
-skrive|write|0
+fortælle|tell, recite||0
+skrive|to write||0
 kone|wife
-mor|mother|0
-far|father|0
-forælder|parent|0
+mor|mother||0
+far|father||0
+forælder|parent||0
 ægtepar|couple
-datter|daughter|0
+datter|daughter||0
 søn|son
 søster|sister
-bror|brother|0
-død|death|0
+bror|brother||0
+død|death||0
 besøge|visit
 alene|alone
 læse|to read, to study
@@ -99,15 +99,15 @@ vågne|wake (up)
 stå|stand
 brusebad|shower
 børste|brush, to brush
-tand|tooth|0
+tand|tooth||0
 barbere|shave
 tøj|clothes
-vække|make someone wake up, разбудить|0
+vække|make someone wake up, разбудить||0
 aflevere|hand in, сдать
 vel|well, good
 sød|sweet
 lejlighed|apartment
-altid|always|0
+altid|always||0
 frisk|fresh
 træt|tired
 aldrig|never
@@ -128,7 +128,7 @@ tur|trip, walk, tour
 ven|friend
 høre|to hear
 fjernsyn|television
-sove|to sleep|0
+sove|to sleep||0
 seng|bed
 skive|slice
 synes|to think, to belive<br>In Danish, at tro is used for believing, and at synes for opinions: Jeg tror det kommer til at regne vs. Jeg synes du er sød.
@@ -136,17 +136,38 @@ virkelig|really, indeed, actually
 idé|idea
 forhindre|prevent
 vindmølle|windmill
-svær|difficult|0|Svært ved at komme ud af sengen?|2
-vænne til|get used to||Sådan vænner du dig til at træne om morgenen.
-træne|to train||Sådan vænner du dig til at træne om morgenen.
-sko|shoe||Skoene er snøret.
-snøre|lace up, tie laces||Skoene er snøret.
+svær|difficult|Svært ved at komme ud af sengen?|0|2
+vænne til|get used to|Sådan vænner du dig til at træne om morgenen.
+træne|to train|Sådan vænner du dig til at træne om morgenen.
+sko|shoe|Skoene er snøret.
+snøre|lace up, tie laces|Skoene er snøret.
 løbe|to run|||2
 med|with
 sol|sun
 solopgang|sunrise
 opgang|stairway,подъезд
-betyde|mean||Det betyder, ...
+betyde|to mean|Det betyder, ...
 afgøre|decide, make a final call
 afgørende|decisive, essential, crucial, very significant
-når|when||Når vi taler om døgnrytme, ...
+når|when|Når vi taler om døgnrytme, ...
+flere|more|Flere end 350.000 er blevet registreret smittet i de seneste 24 timer.
+end|than|Flere end 350.000 er blevet registreret smittet i de seneste 24 timer.
+blive|be, become|Flere end 350.000 er blevet registreret smittet i de seneste 24 timer.
+sen|late, in the last (hours)|Det var sent på aftenen.
+senest|at the latest, not later than|Du skal aflevere rapporten senest i morgen.
+knap|almost, barely, scarce|Lærerne følte, at de havde knappe ressourcer til rådighed.
+miste|to lose|Kim mistede begge sine forældre ved en trafikulykke.
+land|country|..., oplyser landets sundhedsmyndigheder.
+ifølge|according to|Ifølge nyhedsbureauet Reuters ...
+frygte|to fear|Ifølge nyhedsbureauet Reuters frygter sundhedseksperter dog, at de reelle dødstal er langt højere.
+hjælp|help|Hjælpen er på vej.
+alvorlig|serious|Situationen i Indien er i de seneste uger blevet så alvorlig, ...
+vis X|certain, some X|at hospitaler i visse byer har måttet sende patienter væk i døren||2
+måtte|have to|at hospitaler i visse byer har måttet sende patienter væk i døren||2
+væk|away, off, gone|at hospitaler i visse byer har måttet sende patienter væk i døren
+modtage|to receive|Du har modtaget ny digital post.
+venlig|kind, friendly, cheerful|Den venlige, gamle mand fortalte dem vejen.
+hilsen|greeting, regards, salute|Vi skal huske at sende familien vores hilsner.
+enhed|device, unit|Husk at din billet skal vises på den enhed, hvor den er købt.
+rejse|trip, travel|Du skal bruge mundbind eller visir på alle rejser med kollektiv transport.
+krav|requirement, demand|Han lyttede tålmodigt til deres krav.
