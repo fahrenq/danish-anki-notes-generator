@@ -3,7 +3,7 @@ kat|cat|Min kat er hvid.
 bro|bridge
 sprog|language|Hvad sprog taler du?
 udtale|pronunciation
-blød|soft
+blød|soft|||2
 flot|beautiful, nice|En flot bil.
 tredive|thirty (30)
 fyrre|forty (40)
@@ -49,7 +49,7 @@ forskellig|different, various, diverse
 lærer|teacher
 skal vi|should we _ / shell we _|Skal vi spise frokost nu?
 stave|spell
-gift|married
+gift|married|||2
 arbejde|work, occupation, job
 lave|make, do
 om|about
@@ -155,7 +155,7 @@ end|than|Flere end 350.000 er blevet registreret smittet i de seneste 24 timer.
 blive|be, become|Flere end 350.000 er blevet registreret smittet i de seneste 24 timer.
 sen|late, in the last (hours)|Det var sent på aftenen.
 senest|at the latest, not later than|Du skal aflevere rapporten senest i morgen.
-knap|almost, barely, scarce|Lærerne følte, at de havde knappe ressourcer til rådighed.
+knap|almost, barely, scarce|Lærerne følte, at de havde knappe ressourcer til rådighed.||2
 miste|to lose|Kim mistede begge sine forældre ved en trafikulykke.
 land|country|..., oplyser landets sundhedsmyndigheder.
 ifølge|according to|Ifølge nyhedsbureauet Reuters ...

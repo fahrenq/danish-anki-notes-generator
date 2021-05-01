@@ -31,6 +31,10 @@ css = """
     background-color: white;
 }
 
+.mt-15 {
+    margin-top: 15px;
+}
+
 .metainfo {
     font-size: 10px;
     margin-bottom: 10px;
@@ -52,11 +56,20 @@ css = """
     font-size: 15px;
 }
 """
+
+
+qfmt = """
+{{Question}}
+<div class="mt-15 metainfo">
+    {{PartOfSpeech}}
+</div>
+"""
+
 afmt = """
 {{FrontSide}}
 <hr id="answer">
 <div class="metainfo">
-    {{PartOfSpeech}} {{Køn}}
+    {{Køn}}
 </div>
 <div class="bojning">
     {{Bøjning}}
@@ -85,7 +98,7 @@ model = genanki.Model(1091735104, 'Danish',
                       templates=[
                           {
                               'name': 'Card 1',
-                              'qfmt': '{{Question}}',
+                              'qfmt': qfmt,
                               'afmt': afmt
                           },
                       ])
