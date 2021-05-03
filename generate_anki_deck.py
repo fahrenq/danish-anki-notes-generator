@@ -121,24 +121,39 @@ if __name__ == '__main__':
 
             word = tokenised[0]
             cached = next((x for x in cache if x['Word'] == word), None)
+            translation = tokenised[1]
+            example = safe_list_get(tokenised, 2, "")
 
-            if cached is not None:
-                note_fields = cached
+            # Audio position
+            audio_position = safe_list_get(tokenised, 3, None)
+            if audio_position == "":
+                audio_position = None
+
+            if audio_position is not None:
+                audio_position = int(audio_position)
+            else:
+                audio_position = 0
+
+            # Dict Position
+            dict_position = safe_list_get(tokenised, 4, None)
+
+            if dict_position is not None:
+                dict_position = int(dict_position)
+
+            # print(dict_position, cached['dict_position'])
+
+            # Cache
+            cache_available = \
+                cached is not None \
+                and cached['audio_position'] == audio_position \
+                and cached['dict_position'] == dict_position
+
+            if cache_available:
                 print(f'Using cache for word "{word}"')
             else:
                 print(f'No cache found for word "{word}"')
-                translation = tokenised[1]
-                example = safe_list_get(tokenised, 2, "")
-                audio_position = safe_list_get(tokenised, 3, None)
-                dict_pos = safe_list_get(tokenised, 4, None)
 
-                if audio_position == "":
-                    audio_position = None
-
-                if audio_position is not None:
-                    audio_position = int(audio_position)
-
-                info = get_word_info(word, dict_pos)
+                info = get_word_info(word, dict_position)
 
                 # audio
                 if info.get('audio') is not None:
@@ -149,11 +164,7 @@ if __name__ == '__main__':
                             'ATTENTION: No audio_position specified for a word that has more than one audio file. Defaulting to the first variant.')
                         print(
                             f'Word: {word}, Translation: {translation}, Dictionary URL: {info.get("dictionary_url")}')
-                        audio_position = 0
                         # raise 'More than 1 audio found, audio position not specified'
-
-                    if len(audio_urls) == 1:
-                        audio_position = 0
 
                     audio_url = audio_urls[audio_position]
                     filename = audio_url.split('/')[-1]
@@ -178,25 +189,26 @@ if __name__ == '__main__':
                 #   {'name': 'Answer'},
                 #   {'name': 'Media'},
 
-                note_fields = {
+                cached = {
+                    'dict_position': dict_position,
+                    'audio_position': audio_position,
                     'Word': word,
                     'Bøjning': ' || '.join(bojning) if bojning is not None else '',
                     'PartOfSpeech': part_of_speech if part_of_speech is not None else '',
                     'Køn': kon if kon is not None else '',
-                    'Example': example,
-                    'Translation': translation,
                     'Media': f'[sound:{filename}]' if filename is not None else ''
                 }
-                cache.append(note_fields)
+                cache = list(filter(lambda x: x['Word'] != word, cache))
+                cache.append(cached)
 
             note = QuestionOnlyHashNote(model=model, fields=[
-                note_fields['Word'],
-                note_fields['Bøjning'],
-                note_fields['PartOfSpeech'],
-                note_fields['Køn'],
-                note_fields['Example'],
-                note_fields['Translation'],
-                note_fields['Media'],
+                word,
+                cached['Bøjning'],
+                cached['PartOfSpeech'],
+                cached['Køn'],
+                example,
+                translation,
+                cached['Media'],
             ])
             deck.add_note(note)
 
