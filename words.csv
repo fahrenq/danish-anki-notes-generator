@@ -57,22 +57,22 @@ men|but
 godt lide|like
 ikke lide|dislike
 vejr|weather
-elske|love
+elske|to love
 had|hate
 regn|rain
 møde|to meet, meeting, conference
 hver|every||0
-være|be, have, make, быть|Hun har været i Danmark i to år.|0
+være|to be, to have, to make, быть|Hun har været i Danmark i to år.|0
 tog|train||0
 køre|drive
 bil|car
 fordi|because
 samme|same
 arbejdsplads|workplsace
-tage|take||0
-få|get, receive
+tage|to take||0
+få|to get, to receive
 arbejdsgiver|employer
-fortælle|tell, recite||0
+fortælle|to tell, to recite||0
 skrive|to write||0
 kone|wife
 mor|mother||0
@@ -84,26 +84,26 @@ søn|son
 søster|sister
 bror|brother||0
 død|death||0
-besøge|visit
+besøge|to visit
 alene|alone
 læse|to read, to study
-savne|miss
-tænke|think
+savne|to miss
+tænke|to think
 tit|often
 selvfølgelig|of course
 enlig|single
-skille|separate, divorce
+skille|to separate, to divorce
 søskende|siblings
 vækkeur|alarm clock
-vågne|wake (up)
+vågne|to wake (up)
 stå|stand
 brusebad|shower
 børste|brush, to brush
 tand|tooth||0
-barbere|shave
+barbere|to shave
 tøj|clothes
-vække|make someone wake up, разбудить||0
-aflevere|hand in, сдать
+vække|to make someone wake up, разбудить||0
+aflevere|to hand in, сдать
 vel|well, good
 sød|sweet
 lejlighed|apartment
@@ -119,7 +119,7 @@ købe ind|buy groceries
 rydde op|clean up
 slappe af|to relax
 hjemmearbejde|home work
-hente|fetch
+hente|to fetch
 ren|clean
 vaske|to wash
 aftensmad|dinner
@@ -134,7 +134,7 @@ skive|slice
 synes|to think, to belive<br>In Danish, at tro is used for believing, and at synes for opinions: Jeg tror det kommer til at regne vs. Jeg synes du er sød.
 virkelig|really, indeed, actually
 idé|idea
-forhindre|prevent
+forhindre|to prevent
 vindmølle|windmill
 svær|difficult|Svært ved at komme ud af sengen?|0|2
 vænne til|get used to|Sådan vænner du dig til at træne om morgenen.
@@ -147,12 +147,12 @@ sol|sun
 solopgang|sunrise
 opgang|stairway, подъезд
 betyde|to mean|Det betyder, ...
-afgøre|decide, make a final call
+afgøre|to decide, to make a final call
 afgørende|decisive, essential, crucial, very significant
 når|when|Når vi taler om døgnrytme, ...
 flere|more|Flere end 350.000 er blevet registreret smittet i de seneste 24 timer.
 end|than|Flere end 350.000 er blevet registreret smittet i de seneste 24 timer.
-blive|be, become|Flere end 350.000 er blevet registreret smittet i de seneste 24 timer.
+blive|to be, to become|Flere end 350.000 er blevet registreret smittet i de seneste 24 timer.
 sen|late, in the last (hours)|Det var sent på aftenen.
 senest|at the latest, not later than|Du skal aflevere rapporten senest i morgen.
 knap|almost, barely, scarce|Lærerne følte, at de havde knappe ressourcer til rådighed.||2
@@ -163,7 +163,7 @@ frygte|to fear|Ifølge nyhedsbureauet Reuters frygter sundhedseksperter dog, at 
 hjælp|help|Hjælpen er på vej.
 alvorlig|serious|Situationen i Indien er i de seneste uger blevet så alvorlig, ...
 vis X|certain, some X|at hospitaler i visse byer har måttet sende patienter væk i døren||2
-måtte|have to|at hospitaler i visse byer har måttet sende patienter væk i døren||2
+måtte|to have to|at hospitaler i visse byer har måttet sende patienter væk i døren||2
 væk|away, off, gone|at hospitaler i visse byer har måttet sende patienter væk i døren
 modtage|to receive|Du har modtaget ny digital post.
 venlig|kind, friendly, cheerful|Den venlige, gamle mand fortalte dem vejen.
@@ -174,12 +174,12 @@ krav|requirement, demand|Han lyttede tålmodigt til deres krav.
 dårlig|bad|Eleven havde en dårlig attitude i klassen.
 enten|either, whether|Det løber med os, enten vi vil eller ej.
 ø|island|||3
-føle|feel|Jeg føler, at du ikke respekterer mig.
+føle|to feel|Jeg føler, at du ikke respekterer mig.
 dræbe|to kill|Jægeren dræbte en hjort og flåede den.
 sundhed|health
 lede|to look for|||3
 ting|thing, stuff
-bare|just, only|Bare efterlad den på bordet
+bare|just, only|Bare efterlad den på bordet||2
 ringe|to call (over the phone)|Hvorfor kan man ikke bare ringe til sine nøgler, når de igen er blevet væk?
 man|you<br>bruges for at henvise til en ubestemt person som repræsentant for en gruppe eller for folk i almindelighed|Man bør aldrig hæve stemmen, sagde hun
 kende|to know|||3
@@ -197,7 +197,7 @@ højre|right (side)|Han havde en skramme på sin højre skulder
 venstre|left (side)|Den venstre hund ser ret bidsk ud
 uden|without
 siden|since, for ... siden - ago|Han kørte lige før du tog af sted, og ingen har set ham siden
-trodse|defy, spite, бросить вызов|Du skal ikke trodse din far
+trodse|to defy, to spite, бросить вызов|Du skal ikke trodse din far
 frygt|fear|Han levede i konstant frygt
 inden|before, by the time|Han gik inden han gjorde sig selv til grin||2
 slet ikke|absolutely not, far from it
@@ -206,15 +206,15 @@ genåbning|reopening|Tre dage før genåbning kender spillesteder stadig ikke re
 før|before, prior to|Han ankom før sin søster
 spillested|venue, music venue|Tre dage før genåbning kender spillesteder stadig ikke retningslinjerne
 retningslinje|guideline, instruction|Tre dage før genåbning kender spillesteder stadig ikke retningslinjerne
-dyrke|grow, cultivate, till, farm|Hun har dyrket grøntsager i et stykke tid nu
+dyrke|to grow, to cultivate, to till, to farm|Hun har dyrket grøntsager i et stykke tid nu
 dyrke motion|to exercise|Du dyrker motion uden at opdage det
-opdage|dircover, detect, uncover, spot, find out|De opdagede kræft i hendes venstre bryst
+opdage|to discover, to detect, to uncover, to spot, find out|De opdagede kræft i hendes venstre bryst
 kræft|cancer|De opdagede kræft i hendes venstre bryst
 skjule|to hide, to conceal|Fire skjulte måder at få mere bevægelse i hverdagen
 måde|way, manner, method|Fire skjulte måder at få mere bevægelse i hverdagen
 mere|more|Fire skjulte måder at få mere bevægelse i hverdagen
 bevægelse|movement, motion, move, travel|Hun betragter opmærksomt hans mindste bevægelse
-sætte|put, place, set|Sæt dig realistiske mål og gør dem synlige for dig selv, lyder nogle af rådene.
+sætte|to put, to place, to set|Sæt dig realistiske mål og gør dem synlige for dig selv, lyder nogle af rådene.
 mål|goal, object, tarket, mark|Hendes mål er at overtage firmaet
 synlig|visible, apparent, prominent|Sæt dig realistiske mål og gør dem synlige for dig selv, lyder nogle af rådene.
 lyde|to sound, to follow, to obey|Sæt dig realistiske mål og gør dem synlige for dig selv, lyder nogle af rådene.||2
