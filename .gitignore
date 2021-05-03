@@ -1,6 +1,7 @@
 pythonenv3.8
 media/*
 *.apkg
+cache.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -140,4 +141,3 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-cache.json
