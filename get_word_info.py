@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-BASE_URL = "https://ordnet.dk/ddo/ordbog?query="
+BASE_URL = "http://ordnet.dk/ddo/ordbog?query="
 
 
 def get_word_info(word, pos = None):
