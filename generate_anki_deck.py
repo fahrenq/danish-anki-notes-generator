@@ -167,15 +167,12 @@ if __name__ == '__main__':
                         # raise 'More than 1 audio found, audio position not specified'
 
                     audio_url = audio_urls[audio_position]
-                    filename = audio_url.split('/')[-1]
-
-                    if not path.exists('media/' + filename):
-                        r = requests.get(audio_url)
-                        open('media/' + filename, 'wb').write(r.content)
-
-                    package.media_files.append('media/' + filename)
+                    media_filename = audio_url.split('/')[-1]
+                    media_path = './media/' + media_filename
                 else:
-                    filename = None
+                    audio_url = None
+                    media_filename = None
+                    media_path = None
 
                 bojning = info.get('bojning')
                 kon = info.get('kon')
@@ -192,14 +189,26 @@ if __name__ == '__main__':
                 cached = {
                     'dict_position': dict_position,
                     'audio_position': audio_position,
+                    'media_path': media_path,
+                    'audio_url': audio_url,
                     'Word': word,
                     'Bøjning': ' || '.join(bojning) if bojning is not None else '',
                     'PartOfSpeech': part_of_speech if part_of_speech is not None else '',
                     'Køn': kon if kon is not None else '',
-                    'Media': f'[sound:{filename}]' if filename is not None else ''
+                    'Media': f'[sound:{media_filename}]' if media_filename is not None else ''
                 }
+
                 cache = list(filter(lambda x: x['Word'] != word, cache))
                 cache.append(cached)
+
+
+            if cached['media_path'] is not None:
+                if not path.exists(cached['media_path']):
+                    print(f'Downloading audio for word "{word}"')
+                    r = requests.get(cached['audio_url'])
+                    with open(cached['media_path'], 'wb') as media_file:
+                        media_file.write(r.content)
+                package.media_files.append(cached['media_path'])
 
             note = QuestionOnlyHashNote(model=model, fields=[
                 word,
