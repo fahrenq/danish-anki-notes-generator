@@ -105,7 +105,7 @@ tøj|clothes
 vække|to make someone wake up, разбудить||0
 aflevere|to hand in, сдать
 vel|well, good
-sød|sweet
+sød|sweet|||2
 lejlighed|apartment
 altid|always||0
 frisk|fresh
@@ -120,7 +120,7 @@ rydde op|clean up
 slappe af|to relax
 hjemmearbejde|home work
 hente|to fetch
-ren|clean
+ren|clean|||3
 vaske|to wash
 aftensmad|dinner
 vasker op|do the dishes
@@ -140,7 +140,7 @@ svær|difficult|Svært ved at komme ud af sengen?|0|2
 vænne til|get used to|Sådan vænner du dig til at træne om morgenen.
 træne|to train|Sådan vænner du dig til at træne om morgenen.
 sko|shoe|Skoene er snøret.
-snøre|lace up, tie laces|Skoene er snøret.||2
+snøre|to lace up, to tie laces|Skoene er snøret.||2
 løbe|to run|||2
 med|with
 sol|sun
@@ -219,3 +219,12 @@ mål|goal, object, tarket, mark|Hendes mål er at overtage firmaet
 synlig|visible, apparent, prominent|Sæt dig realistiske mål og gør dem synlige for dig selv, lyder nogle af rådene.
 lyde|to sound, to follow, to obey|Sæt dig realistiske mål og gør dem synlige for dig selv, lyder nogle af rådene.||2
 råd|advice, council, committee|Han gav mig et brugbart råd.
+vil du med?|Do you want to come?
+travl|busy, to be busy|Har du travlt?
+jubi|hooray, hurray, whoopee
+medlem|member|Klubben sendte brev ud til alle medlemmer.
+vores|our|Velkommen til vores store, nye koncertsal.
+hensyn|consideration, af hensyn til - for the sake of, med hensyn til - with regard to|De viste ikke hensyn til hendes følelser.
+stolt|proud|Hun var for stolt til at bede om hjælp.
+uden for, udenfor|outside, outside of|Han ventede uden for bygningen.
+forstå|understand, realise|Hun forstår lærerens frustration.
