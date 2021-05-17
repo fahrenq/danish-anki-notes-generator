@@ -153,7 +153,8 @@ if __name__ == '__main__':
             else:
                 print(f'No cache found for word "{word}"')
 
-                info = get_word_info(word, dict_position)
+                first_word = word.split(',')[0]
+                info = get_word_info(first_word, dict_position)
 
                 # audio
                 if info.get('audio') is not None:
@@ -200,7 +201,6 @@ if __name__ == '__main__':
 
                 cache = list(filter(lambda x: x['Word'] != word, cache))
                 cache.append(cached)
-
 
             if cached['media_path'] is not None:
                 if not path.exists(cached['media_path']):
