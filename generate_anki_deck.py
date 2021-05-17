@@ -154,6 +154,7 @@ if __name__ == '__main__':
                 print(f'No cache found for word "{word}"')
 
                 first_word = word.split(',')[0]
+                first_word = first_word.split('(')[0]
                 info = get_word_info(first_word, dict_position)
 
                 # audio
