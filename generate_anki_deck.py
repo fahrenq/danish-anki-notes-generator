@@ -20,7 +20,6 @@ class QuestionOnlyHashNote(genanki.Note):
 
 deck = genanki.Deck(2059400110, 'Danish')
 
-
 package = genanki.Package(deck)
 package.media_files = []
 
@@ -86,7 +85,30 @@ afmt = """
 {{Media}}
 """
 
-model = genanki.Model(1091735104, 'Danish',
+qfmtR = """
+{{Answer}}
+<div class="mt-15 metainfo">
+    {{PartOfSpeech}}
+</div>
+"""
+
+afmtR = """
+{{FrontSide}}
+<hr id="answer">
+{{Question}}
+<div class="metainfo">
+    {{Køn}}
+</div>
+<div class="bojning">
+    {{Bøjning}}
+</div>
+<div class="example">
+    {{Example}}
+</div>
+{{Media}}
+"""
+
+model = genanki.Model(1091735114, 'Danish (and reversed card)',
                       fields=[
                           {'name': 'Question'},
                           {'name': 'Bøjning'},
@@ -102,6 +124,11 @@ model = genanki.Model(1091735104, 'Danish',
                               'name': 'Card 1',
                               'qfmt': qfmt,
                               'afmt': afmt
+                          },
+                          {
+                              'name': 'Card 2',
+                              'qfmt': qfmtR,
+                              'afmt': afmtR
                           },
                       ])
 
