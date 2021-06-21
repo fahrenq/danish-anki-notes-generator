@@ -32,6 +32,10 @@ css = """
     background-color: white;
 }
 
+.mt-5 {
+    margin-top: 5px;
+}
+
 .mt-15 {
     margin-top: 15px;
 }
@@ -61,8 +65,11 @@ css = """
 
 qfmt = """
 {{Question}}
-<div class="mt-15 metainfo">
+<div class="mt-5 metainfo">
     {{PartOfSpeech}}
+</div>
+<div class="mt-15 metainfo">
+    da
 </div>
 """
 
@@ -87,8 +94,11 @@ afmt = """
 
 qfmtR = """
 {{Answer}}
-<div class="mt-15 metainfo">
+<div class="mt-5 metainfo">
     {{PartOfSpeech}}
+</div>
+<div class="mt-15 metainfo">
+    en
 </div>
 """
 
