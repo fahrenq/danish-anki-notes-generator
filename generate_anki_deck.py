@@ -60,6 +60,10 @@ css = """
 .example {
     font-size: 15px;
 }
+
+#first-letter {
+  white-space: pre;
+}
 """
 
 
@@ -100,6 +104,16 @@ qfmtR = """
 <div class="mt-15 metainfo">
     en
 </div>
+<br/>
+<br/>
+
+<div id="first-letter"></div>
+
+<script>
+var str = "{{Question}}";
+var res = str.replace(/<\/?div>/g,'').split('').map((i, idx) => (idx === 0 ? i + ' ' : (i  === ' ' ? '   ' : '_ '))).join('');
+document.getElementById("first-letter").innerHTML = res;
+</script>
 """
 
 afmtR = """
