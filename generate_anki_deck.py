@@ -106,8 +106,10 @@ qfmtR = """
 </div>
 <br/>
 <br/>
-
 <div id="first-letter"></div>
+<br/>
+<br/>
+<div>{{type:Question}}</div>
 
 <script>
 var str = "{{Question}}";
