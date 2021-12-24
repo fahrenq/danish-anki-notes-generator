@@ -72,6 +72,9 @@ qfmt = """
 <div class="mt-5 metainfo">
     {{PartOfSpeech}}
 </div>
+<div class="ipa">
+    {{IPA}}
+</div>
 <div class="mt-15 metainfo">
     da
 </div>
@@ -122,6 +125,9 @@ afmtR = """
 {{FrontSide}}
 <hr id="answer">
 {{Question}}
+<div class="ipa">
+    {{IPA}}
+</div>
 <div class="metainfo">
     {{Køn}}
 </div>
@@ -143,6 +149,7 @@ model = genanki.Model(1091735114, 'Danish (and reversed card)',
                           {'name': 'Example'},
                           {'name': 'Answer'},
                           {'name': 'Media'},
+                          {'name': 'IPA'},
                       ],
                       css=css,
                       templates=[
@@ -232,6 +239,7 @@ if __name__ == '__main__':
                 bojning = info.get('bojning')
                 kon = info.get('kon')
                 part_of_speech = info.get('part_of_speech')
+                ipa = info.get('ipa')
 
                 #   {'name': 'Question'},
                 #   {'name': 'Bøjning'},
@@ -240,6 +248,7 @@ if __name__ == '__main__':
                 #   {'name': 'Example'},
                 #   {'name': 'Answer'},
                 #   {'name': 'Media'},
+                #   {'name': 'IPA'},
 
                 cached = {
                     'dict_position': dict_position,
@@ -250,7 +259,8 @@ if __name__ == '__main__':
                     'Bøjning': ' || '.join(bojning) if bojning is not None else '',
                     'PartOfSpeech': part_of_speech if part_of_speech is not None else '',
                     'Køn': kon if kon is not None else '',
-                    'Media': f'[sound:{media_filename}]' if media_filename is not None else ''
+                    'Media': f'[sound:{media_filename}]' if media_filename is not None else '',
+                    'IPA': ipa if ipa is not None else ''
                 }
 
                 cache = list(filter(lambda x: x['Word'] != word, cache))
@@ -272,6 +282,7 @@ if __name__ == '__main__':
                 example,
                 translation,
                 cached['Media'],
+                cached['IPA'],
             ])
             deck.add_note(note)
 

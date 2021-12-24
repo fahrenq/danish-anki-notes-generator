@@ -1,7 +1,7 @@
 pythonenv3.8
 media/*
 *.apkg
-cache.json
+# cache.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
