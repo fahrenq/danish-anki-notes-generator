@@ -4,7 +4,6 @@ import requests
 
 BASE_URL = "http://ordnet.dk/ddo/ordbog?query="
 
-
 def get_word_info(word, pos=None):
     link = BASE_URL + word
     if (pos is not None):
@@ -44,11 +43,8 @@ def get_word_info(word, pos=None):
     udtale_main_element = soup.select_one('#id-udt')
 
     if udtale_main_element is not None:
-        # print(udtale_main_element)
         udtale_elements = udtale_main_element.select(
             '.lydskrift, .lydskrift ~ .diskret, .dividerDouble')
-
-        # print(udtale_elements)
 
         def udtale_element_mapper(el: Tag):
             if el.has_attr('class') and 'dividerDouble' in el['class']:
@@ -64,7 +60,6 @@ def get_word_info(word, pos=None):
             audio = list(map(lambda x: x.get('href'), audio_elements))
         else:
             audio = None
-
     else:
         ipa = None
         audio = None
