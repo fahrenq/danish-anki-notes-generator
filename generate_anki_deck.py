@@ -53,7 +53,16 @@ css = """
     line-height: 3;
 }
 
-.answer {
+.ipa {
+    background-color: lightpink;
+    color: black;
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 3;
+    font-family: monospace;
+}
+
+.answer, #answer {
     margin-bottom: 10px;
 }
 
@@ -124,7 +133,9 @@ document.getElementById("first-letter").innerHTML = res;
 afmtR = """
 {{FrontSide}}
 <hr id="answer">
-{{Question}}
+<div calss="answer">
+    {{Question}}
+</div>
 <div class="ipa">
     {{IPA}}
 </div>
