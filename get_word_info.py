@@ -1,11 +1,15 @@
 from bs4 import BeautifulSoup
 from bs4.element import Tag
 import requests
+import re
 
 BASE_URL = "http://ordnet.dk/ddo/ordbog?query="
 
+
 def get_word_info(word, pos=None):
-    link = BASE_URL + word
+    word_to_query = re.sub('^(at|en|et)\s', '', word)
+
+    link = BASE_URL + word_to_query
     if (pos is not None):
         link = link + f",{pos}"
     html = requests.get(link).text
@@ -76,5 +80,5 @@ def get_word_info(word, pos=None):
 
 
 if __name__ == '__main__':
-    r = get_word_info('sige')
+    r = get_word_info('at sige')
     print(r)
