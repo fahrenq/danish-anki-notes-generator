@@ -122,11 +122,15 @@ qfmtR = """
 <br/>
 <br/>
 <div>{{type:Question}}</div>
-
 <script>
 var str = "{{Question}}";
 var res = str.replace(/<\/?div>/g,'').split('').map((i, idx) => (idx === 0 ? i + ' ' : (i  === ' ' ? '   ' : '_ '))).join('');
 document.getElementById("first-letter").innerHTML = res;
+
+function replace_div(str) {
+    return str.replace(/<\/?div>/g,'');
+}
+
 </script>
 """
 
