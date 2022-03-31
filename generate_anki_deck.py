@@ -25,134 +25,193 @@ package.media_files = []
 
 css = """
 .card {
-    font-family: verdana;
-    font-size: 20px;
-    text-align: center;
-    color: black;
-    background-color: white;
+  background-image: url("bg-english.jpg");
+  background-size: cover;
 }
 
-.mt-5 {
-    margin-top: 5px;
+.front + .back {
+  border-radius: 0px 0px 7px 7px;
+  position: relative;
+  top: -7px;
 }
 
-.mt-15 {
-    margin-top: 15px;
+.back + .front {
+  border-radius: 0px 0px 7px 7px;
+  position: relative;
+  top: -7px;
 }
 
-.metainfo {
-    font-size: 10px;
-    margin-bottom: 10px;
+.front {
+  background-color: #18adaa;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.back {
+  background-color: white;
+  color: #016ea6;
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.word {
+  font-size: 50px;
+  text-align: center;
+}
+
+.phonetic {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: monospace;
+}
+
+.part-of-speech {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.kon {
+  text-align: center;
 }
 
 .bojning {
-    background-color: aliceblue;
-    color: black;
-    font-size: 15px;
-    margin-bottom: 10px;
-    line-height: 3;
+  text-align: center;
+  margin-top: 5px;
 }
 
-.ipa {
-    background-color: lightpink;
-    color: black;
-    font-size: 15px;
-    margin-bottom: 10px;
-    line-height: 3;
-    font-family: monospace;
-}
-
-.answer, #answer {
-    margin-bottom: 10px;
+.definition {
+  font-size: 40px;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .example {
-    font-size: 15px;
+  margin-top: 10px;
+  color: #6d8891;
+  text-align: center;
 }
 
-#first-letter {
-  white-space: pre;
+.type-prompt input {
+  width: 100%;
+  padding: 12px 20px;
+  border: 2px solid #6d8891;
+  border-radius: 4px;
+  background-color: white !important;
+  color: #6d8891 !important;
+  font-size: 20px;
 }
+
+.type-prompt {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px
+}
+
+.first-letters {
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+  letter-spacing: 2px;
+}
+
+.replay-button { text-decoration: none; display: inline-flex; vertical-align: middle; margin: 3px; }
+.replay-button svg { width: 25px; height: 25px; }
+.replay-button svg circle { fill: none; stroke: #fff; }
+.replay-button svg path { fill: #fff; }
+
+
+
 """
 
-
 qfmt = """
-{{Question}}
-<div class="mt-5 metainfo">
-    {{PartOfSpeech}}
-</div>
-<div class="ipa">
-    {{IPA}}
-</div>
-<div class="mt-15 metainfo">
-    da
+<div class="front">
+  <div class="word">{{Question}}</div>
+  <div class="part-of-speech">{{PartOfSpeech}}</div>
+  <div class="phonetic">{{IPA}}</div>
 </div>
 """
 
 afmt = """
-{{FrontSide}}
-<hr id="answer">
-<div class="metainfo">
+<div class="front">
+  <div class="word">{{Question}}</div>
+  <div class="part-of-speech">{{PartOfSpeech}}</div>
+  <div class="phonetic">{{IPA}}{{#Media}}{{Media}}{{/Media}}</div>
+</div>
+
+<div class="back">
+
+  <div class="kon">
+      {{Køn}}
+  </div>
+  <div class="bojning">
+      {{Bøjning}}
+  </div>
+  <div class="definition">
+      {{Answer}}
+  </div>
+  <div class="example">
+      {{Example}}
+  </div>
+
+</div>
+"""
+
+qfmtR = """
+<div class="front">
+  <div class="first-letters"></div>
+  <div class="type-prompt">{{type:Question}}</div>
+  <div class="part-of-speech">{{PartOfSpeech}}</div>
+</div>
+
+<div class="back">
+
+<div class="kon">
     {{Køn}}
 </div>
 <div class="bojning">
     {{Bøjning}}
 </div>
-<div class="answer">
+<div class="definition">
     {{Answer}}
 </div>
 <div class="example">
     {{Example}}
 </div>
-<br>
-{{Media}}
-"""
 
-qfmtR = """
-{{Answer}}
-<div class="mt-5 metainfo">
-    {{PartOfSpeech}}
 </div>
-<div class="mt-15 metainfo">
-    en
-</div>
-<br/>
-<br/>
-<div id="first-letter"></div>
-<br/>
-<br/>
-<div>{{type:Question}}</div>
+
 <script>
-var str = "{{Question}}";
-var res = str.replace(/<\/?div>/g,'').split('').map((i, idx) => (idx === 0 ? i + ' ' : (i  === ' ' ? '   ' : '_ '))).join('');
-document.getElementById("first-letter").innerHTML = res;
-
-function replace_div(str) {
-    return str.replace(/<\/?div>/g,'');
-}
-
+var input = "{{Question}}";
+var output = input.replace(/(?<=[A-zÅåÆæØøÄäÖöÜüẞß()])([A-zÅåÆæØøÄäÖöÜüẞß])/g, '_');
+document.querySelector(".first-letters").innerHTML = output;
 </script>
 """
 
 afmtR = """
-{{FrontSide}}
-<hr id="answer">
-<div calss="answer">
-    {{Question}}
+<div class="front">
+  <div class="word">{{Question}}</div>
+  <div class="part-of-speech">{{PartOfSpeech}}</div>
+  <div class="phonetic">{{IPA}}{{#Media}}{{Media}}{{/Media}}</div>
+  <div class="type-prompt">{{type:Question}}</div>
 </div>
-<div class="ipa">
-    {{IPA}}
-</div>
-<div class="metainfo">
+
+<div class="back">
+
+<div class="kon">
     {{Køn}}
 </div>
 <div class="bojning">
     {{Bøjning}}
 </div>
+<div class="definition">
+    {{Answer}}
+</div>
 <div class="example">
     {{Example}}
 </div>
-{{Media}}
+
+</div>
 """
 
 model = genanki.Model(1091735114, 'Danish (and reversed card)',
