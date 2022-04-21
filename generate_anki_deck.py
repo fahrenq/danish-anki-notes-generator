@@ -18,7 +18,7 @@ class QuestionOnlyHashNote(genanki.Note):
         return genanki.guid_for(self.fields[0])
 
 
-deck = genanki.Deck(2059400110, 'Danish')
+deck = genanki.Deck(2059400110, '🇩🇰 Danish')
 
 package = genanki.Package(deck)
 package.media_files = []
