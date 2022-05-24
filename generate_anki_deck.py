@@ -166,12 +166,9 @@ qfmtR = """
 
 <div class="back">
 
-<div class="definition">
-    {{Answer}}
-</div>
-<div class="example">
-    {{Example}}
-</div>
+  <div class="definition">
+      {{Answer}}
+  </div>
 
 </div>
 
