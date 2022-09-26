@@ -241,7 +241,7 @@ if __name__ == '__main__':
     cache = json.load(cache_file)
 
     with open('./words.csv') as f:
-        for line in f.readlines():
+        for line in f.readlines()[1:]:
             tokenised = line.strip().split('|')
 
             word = tokenised[0]
