@@ -25,7 +25,7 @@ hvornår|when
 hvad tid|when
 hvor meget|how much
 hvor mange|how many
-hvis|if, whoes
+hvis|if, whose
 hvor længe|for how long
 hvor lang tid|for how long
 gammel|old||0
@@ -40,15 +40,15 @@ jakke|jacket
 han|he
 hun|she
 viskelæder|eraser
-tro|to think, to belive<br>In Danish, at tro is used for believing, and at synes for opinions: Jeg tror det kommer til at regne vs. Jeg synes du er sød.|||2
+tro|to think, to believe<br>In Danish, at tro is used for believing, and at synes for opinions: Jeg tror det kommer til at regne vs. Jeg synes du er sød.|||2
 skole|school
-hendes|her|Det er ikke henders.|0
+hendes|her|Det er ikke hendes.|0
 måske|maybe||0
 kvinde|woman
 mand|man, husband||0
 forskellig|different, various, diverse
 lærer|teacher
-skal vi|should we _ / shell we _|Skal vi spise frokost nu?
+skal vi|should we _ / shall we _|Skal vi spise frokost nu?
 stave|spell
 gift|married|||2
 arbejde|work, occupation, job
@@ -69,7 +69,7 @@ køre|drive
 bil|car
 fordi|because
 samme|same
-arbejdsplads|workplsace
+arbejdsplads|workplace
 tage|to go, to take||0
 få|to get, to receive
 arbejdsgiver|employer
@@ -119,12 +119,12 @@ normalt|normally
 købe ind|to buy groceries
 rydde op|clean up
 slappe af|to relax
-hjemmearbejde|home work
+hjemmearbejde|homework
 hente|to fetch
 ren|clean|||3
 vaske|to wash
 aftensmad|dinner
-vasker op|do the dishes
+vaske op|do the dishes
 tur|trip, walk, tour
 ven|friend
 høre|to hear
@@ -132,7 +132,7 @@ fjernsyn|television
 sove|to sleep||0
 seng|bed
 skive|slice
-synes|to think, to belive<br>In Danish, at tro is used for believing, and at synes for opinions: Jeg tror det kommer til at regne vs. Jeg synes du er sød.
+synes|to think, to believe<br>In Danish, at tro is used for believing, and at synes for opinions: Jeg tror det kommer til at regne vs. Jeg synes du er sød.
 virkelig|really, indeed, actually
 idé|idea
 forhindre|to prevent (take action, actively prevent)
@@ -150,7 +150,7 @@ opgang|stairway, подъезд
 betyde|to mean|Det betyder, ...
 afgøre|to decide, to make a final call (official)
 afgørende|decisive, essential, crucial, very significant
-når|when<br/>The English word when translates into three words in Danish: Hvornår for asking a question and da og når for the rest. Da describes a scene in the past and når is used for future or repeted situations in present or past.|Når vi taler om døgnrytme, ...
+når|when<br/>The English word when translates into three words in Danish: Hvornår for asking a question and da and når for the rest. Da describes a scene in the past and når is used for future or repeated situations in present or past.|Når vi taler om døgnrytme, ...
 flere|more|Flere end 350.000 er blevet registreret smittet i de seneste 24 timer.
 end|than|Flere end 350.000 er blevet registreret smittet i de seneste 24 timer.
 blive|to be, to become|Flere end 350.000 er blevet registreret smittet i de seneste 24 timer.
@@ -190,7 +190,7 @@ fortid|past|Men det kan snart være fortid.
 lancere|to launch|I sidste uge lancerede techgiganten Apple en lille metalbrik ved navn Airtag.
 selvom / selv om|even though, even if, though|Selvom man ikke fysisk kan ringe op til sine nøgler med den nye teknologi, ...
 lang|long|er det ikke langt fra
-trådløse|wireless|Det er den trådløse teknologi
+trådløs|wireless|Det er den trådløse teknologi
 magi|magic|... , som får magien til at ske med Airtags
 at ske|to happen|... , som får magien til at ske med Airtags||2
 anholde|to arrest|25-årig blev anholdt i storstilet terroraktion
@@ -229,10 +229,10 @@ hensyn|consideration, af hensyn til - for the sake of, med hensyn til - with reg
 stolt|proud|Hun var for stolt til at bede om hjælp.
 udenfor, uden for|outside, outside of|Han ventede uden for bygningen.
 forstå|to understand, to realise|Hun forstår lærerens frustration.
-lyd|sound, noise|Det lyder måske lidt forvirret, men udvikler sig	ret spændende i filmen...
+lyd|sound, noise|Det lyder måske lidt forvirret, men udvikler sig ret spændende i filmen...
 dyk|dive, tumble, dip|Dyk ned i kendte romaner og personlige fortællinger.
 ned|down|Dyk ned i kendte romaner og personlige fortællinger.
-personlig|personal, individual. personalised|Dyk ned i kendte romaner og personlige fortællinger.
+personlig|personal, individual, personalised|Dyk ned i kendte romaner og personlige fortællinger.
 fortælling|story, tale, narrative|Dyk ned i kendte romaner og personlige fortællinger.
 lidenskab|passion, ardour|Sex, lidenskab, erotik og kærlighed.
 kærlighed|love, affection|Sex, lidenskab, erotik og kærlighed.
@@ -241,9 +241,9 @@ landevej|highway, main road|Der kom en soldat marcherende hen ad landevejen: én
 have|to have, to possess, to own, to enjoy|Han havde sit tornyster på ryggen og en sabel ved siden, for han havde været i krigen, og nu skulle han hjem.||2
 sin|his, her, its, one's|Han havde sit tornyster på ryggen og en sabel ved siden, for han havde været i krigen, og nu skulle han hjem.
 ryg|back, спина|Hans ryg gør ondt om vinteren
-for|for, to|Det var en skuffelse for ham at ende som nummer to
+for|for, to, too|Det var en skuffelse for ham at ende som nummer to
 krig|war|De erklærede hinanden krig
-skulle|must, be to, shell, will|Han havde sit tornyster på ryggen og en sabel ved siden, for han havde været i krigen, og nu skulle han hjem.
+skulle|must, be to, shall, will|Han havde sit tornyster på ryggen og en sabel ved siden, for han havde været i krigen, og nu skulle han hjem.
 heks|witch|Så mødte han en gammel heks på landevejen; ...
 ækel|disgusting, nasty|... hun var så ækel ...
 læbe|lip|... hendes underlæbe hang hende lige ned på brystet.
@@ -262,7 +262,7 @@ indeni, inden i|inside, within|Det er ganske hult inden i!
 krybe|to inch, to crawl, медленно идти|Der skal du krybe op i toppen, ...
 op|up|Der skal du krybe op i toppen, ...
 top|top, apex, peak|Bandet ligger på toppen af hitlisterne for tredje uge i træk
-hul (substansiv)|hole, leak, puncture|Hullet er næsten for stort til at lukke
+hul (substantiv)|hole, leak, puncture|Hullet er næsten for stort til at lukke
 dæk|tyre, ship deck, floor (etage)|Der var et lille hul i dækket
 lade|let, allow, permit|Hendes forældre lod hende gå til festen||2
 glide|glide, slide|Han ser ud til at glide over racerbanen
@@ -282,7 +282,7 @@ lys|bright, light, pale|Det lyse værelse opmuntrede børnene.||2
 brænde|to burn, to cremate, to bake|Huset brænder.||2
 lukke op|to open the door|Så ser du tre døre, du kan lukke dem op, nøglen sidder i.
 kammer|chamber, cubicle, small room, compartment|Går du ind i det første kammer, ...
-da|when, at the time when, by the time, as\nThe English word when translates into three words in Danish: Hvornår for asking a question and da og når for the rest. Da describes a scene in the past and når is used for future or repeted situations in present or past.|Da jeg gik i skole, havde jeg meget hjemmearbejde.
+da|when, at the time when, by the time, as<br/>The English word when translates into three words in Danish: Hvornår for asking a question and da and når for the rest. Da describes a scene in the past and når is used for future or repeated situations in present or past.|Da jeg gik i skole, havde jeg meget hjemmearbejde.
 gulv|floor, flooring|Gulvet var lavet af marmor.
 midt|in the middle, in the centre|Går du ind i det første kammer, da ser du midt på gulvet en stor kiste, ...
 kiste|coffin, casket, chest|Går du ind i det første kammer, da ser du midt på gulvet en stor kiste, ...
@@ -290,7 +290,7 @@ ovenpå, oven på|on top of|Hun puttede hindbær oven på kagen.
 par|couple (of something), pair, few|han har et par øjne
 øje|eye, orb|Jeg har grønne øjne
 som|as, like, such as|Alt gik præcist, som jeg havde planlagt det||2
-bryde sig om|to worry about, to take in to account, to take care of|... han har et par øjne så store som et par tekopper, men det skal du ikke bryde dig om!
+bryde sig om|to care about, to like, to mind|... han har et par øjne så store som et par tekopper, men det skal du ikke bryde dig om!
 bryde|to break, to violate, to crack|Det lykkedes dem at bryde igennem barrieren.
 forklæde|apron|Jeg giver dig mit blåternede forklæde, det kan du brede ud på gulvet; ...
 brede|to spread, to scatter|Jeg giver dig mit blåternede forklæde, det kan du brede ud på gulvet; ...
@@ -311,8 +311,8 @@ bestyrelse|board of directors, board, executive committee|Bestyrelsen har beslut
 beslutte|to decide, to resolve (every-day decisions)|Bestyrelsen har besluttet at udvide åbningstiden i saunaerne og i klubhuset, reglerne er som følger: ...
 udvide|to extend, to expand, to enlarge|Bestyrelsen har besluttet at udvide åbningstiden i saunaerne og i klubhuset, reglerne er som følger: ...
 regel|rule, regulation|Bestyrelsen har besluttet at udvide åbningstiden i saunaerne og i klubhuset, reglerne er som følger: ...
-følge (substansiv)|effect, consequence, result|Som en følge kunne han ikke gå længere.
-følge (verbum)|to follow, to walk, to accompany|result||3
+følge (substantiv)|effect, consequence, result|Som en følge kunne han ikke gå længere.
+følge (verbum)|to follow, to walk, to accompany|||3
 uændret|unchanged, unaltered|Vildlivet i dette område har forblivet uændret i årevis.
 strand|beach, shore
 fælles|common, joint, mutual|Forældrene har fælles forældremyndighed over barnet.
@@ -343,14 +343,14 @@ instruktør|instructor|Forresten, Camilla er bodypump instruktør i FitnessX. S�
 flytte|to move, to relocate, to shift|Forresten, Camilla er bodypump instruktør i FitnessX. Så jeg tænker at flytte dertil :)
 dertil|there, for that|Forresten, Camilla er bodypump instruktør i FitnessX. Så jeg tænker at flytte dertil :)
 billig|cheap, inexpensive|Det er også noget billigere end fitnessworld.
-i så fald|in that case, if so|I så fald  jeg annullerer min fitnessworld.
+i så fald|in that case, if so|I så fald annullerer jeg min fitnessworld.
 tidspunkt|time, point, moment, hour|Han spurgte hvilket tidspunkt de skulle komme på.
 på et tidspunkt|at some point|Du skal også komme og se lejligheden på et tidspunkt.
 lørdag|Saturday|Vi fik nøglerne i lørdags og flytter ind nu på lørdag :)
 tæt|dense, thick|Parret gik igennem den tætte skov
 tæt på|near, close|Teotihuacan er pyramiderne tæt på Mexico city.
 helt|completely, totally, entirely|Han havde helt glemt, at det var mors dag.||3
-helt sikkert|definitely, certainly|De er helt sikkert et besøg værd.|
+helt sikkert|definitely, certainly|De er helt sikkert et besøg værd.
 værd|worth|De er helt sikkert et besøg værd.||2
 fest|party, celebration|Festen bliver holdt på lørdag.
 minde|memory, reminiscence|Ikke alle har lykkelige minder om barndommen
@@ -361,15 +361,15 @@ sejle|to sail|Mexico city var oprindelig bygget på en sø og man sejlede rundt 
 rundt|round, around|Mexico city var oprindelig bygget på en sø og man sejlede rundt på både som i Venedig.
 båd|boat, vessel|Mexico city var oprindelig bygget på en sø og man sejlede rundt på både som i Venedig.
 sted|place, spot, location|De ledte efter et sted at campere
-stadig|constant, permanent, persistent|Xochimilco er et sted hvor de stadig har bådene og man bliver sejlet rundt.
+stadig|still, constant, permanent, persistent|Xochimilco er et sted hvor de stadig har bådene og man bliver sejlet rundt.
 kigge|to look, to glance, to peek|Museo Nacional de Antropología er også et kig værd hvis man er til historie og de gamle folkefærd
 historie|story, history|Museo Nacional de Antropología er også et kig værd hvis man er til historie og de gamle folkefærd
-folkefærd|folklore, race|Museo Nacional de Antropología er også et kig værd hvis man er til historie og de gamle folkefærd
+folkefærd|people, nation, race|Museo Nacional de Antropología er også et kig værd hvis man er til historie og de gamle folkefærd
 lejr|camp|Da jægerne kommer hjem til lejren er alle vågne, selv om det er sen aften
 kz-lejr|concentration camp|Memory and Tolerance Museum er den med KZ lejrene og folkemord
 folkemord|genocide|Memory and Tolerance Museum er den med KZ lejrene og folkemord
 nærhed|proximity, nearness|bevæbnet med en økse fældede han alt i sin nærhed
-i nærheden|close to, nearby|Hvis i er i nærheden, så kan i se det også.
+i nærheden|close to, nearby|Hvis I er i nærheden, så kan I se det også.
 eneste|only, sole, single|Hun var den eneste ansøger til jobbet
 ansøger|candidate, applicant|Han var en af de mange ansøgere til jobbet
 ansøge|to apply|En masse mennesker ansøgte om jobbet
@@ -401,7 +401,7 @@ seddel|note, slip, tag
 nytte|use, utility, usefulness
 vende|to turn, to veer, to face|Han vendte bilen og tog hjem.
 støde ind|to bump into
-frygtelig|dreadful, awful, terrific|Jeg har lavet en frygtelig fejltagelse.
+frygtelig|dreadful, awful, terrible|Jeg har lavet en frygtelig fejltagelse.
 fejltagelse|mistake, error|Jeg har lavet en frygtelig fejltagelse.
 vældig|enormous, immense, huge|Den vældige folkemængde nægtede at forlade pladsen.
 flink|friendly, nice, kind|Den fremmede var meget flink.
@@ -431,7 +431,7 @@ overfylde|overload, overfill, pack|Den var overfyldt med børn.
 sammenligne|to compare, to contrast|Jeg sammenligner den med den anden.
 et løfte|promise, vow|Drengen gav et løfte til sin mor.
 at løfte|to lift, to elevate|De løftede akvariet sammen.||2
-forsalg|proposal, suggestion|Vi vil overveje dit forsalg.
+forslag|proposal, suggestion|Vi vil overveje dit forslag.
 lønmodtager|employee, wage earner
 lomme|pocket, purse|Han har en lomme med penge.
 pleje|care, nursing, to care, to nurse|Moren plejede sit barn.
@@ -470,7 +470,7 @@ helikopter|helicopter|Der er altid mange fly og helikoptere over New York.
 ignorere|ignore, disregard, pay no attention to
 følelse|emotion, feeling, sensation
 mens, medens|while
-sambo|roommate, flatmate
+sambo|live-in partner, cohabitant
 alvor|seriousness, severity
 glemme|to forget, to fail, to neglect|||2
 tæppe|blanket, rug, carpet
@@ -513,7 +513,7 @@ græde|to cry
 hård|hard, harsh
 miljø|environment
 erkende|to acknowledge, to recognize
-generel|in general
+generel|general
 borgmester|mayor
 kvindelig|female
 viden|knowledge
@@ -570,7 +570,7 @@ omfatte|to include
 grad|degree
 gensyn|reunion, det at ses igen eller at se noget igen efter en tid
 lige nu|right now
-vurdere|to assesss, to consider, to evaluate
+vurdere|to assess, to consider, to evaluate
 nødvendig|required, necessary
 røre|to touch|||2
 lægge|to put
@@ -579,7 +579,6 @@ fuld|full, drunk
 stædig|stubborn
 krigsstien|war path, gå eller være i krig
 ond|evil, bad
-for|for, too
 bedøve|to anesthetize, to sedate
 håb|hope
 endnu|yet, another (tidspunkt)
@@ -612,7 +611,7 @@ kurs|course, direction|Vi sætter kursen.
 udmærket|excellently, splendidly
 sur|grumpy, angry, peeved
 simpelthen|simply
-ærlig|honestly
+ærlig|honest
 kalenderlys|advent candle
 altså|when a previous sentence is not clear, make the same point in a different way (well, ...), or when you want to intervene in the conversation
 kalde|to call
@@ -625,11 +624,11 @@ skulder|shoulder
 hinanden|each other, one another
 samles|to gather, to meet
 tvinge|to force, to coerce
-gøre sig umage|to trouble
+gøre sig umage|to take the trouble, to make an effort
 bænkpres|bench press
 p.t.|(pro tempore) at present
 ligge|to lie, to be
-skidegod|brilliant, top-notch (unformal)
+skidegod|brilliant, top-notch (informal)
 seriøs|serious
 tud|conk, snout, nose, носище, морда
 kane|sleigh
@@ -694,8 +693,8 @@ at afbryde|to interrupt, to cut off
 et statsborgerskab|citizenship
 tilladt|allowed
 langsom|slow
-i gang| working, active
-mærkeligt| strange, weird
+i gang|working, active
+mærkeligt|strange, weird
 ligesom|sort of, kind of
 begravelse|funeral, burial
 intet|none, no, nothing
@@ -803,9 +802,9 @@ bide i det sure æble|bite the bullet
 ufaglært|unskilled|Han var en ufaglært arbejder.
 en abort|abortion
 Færøerne|the Faroe Islands
-Færing|Faroese
+en færing|Faroese
 en kontrollør|checker, controller, supervisor
-en pronomen|pronoun
+et pronomen|pronoun
 at afvise|to reject, to turn down|Han afviste hendes forslag.
 at servere|to serve, to wait a table
 en forening|association, union
@@ -860,7 +859,7 @@ et horehus|whorehouse, brothel
 et forhold|relation, affair, conditions
 dyr|expensive, pricey, costly
 en slikkepind|lollipop
-Paul er forsigtere end Peter.|Paul is more caring than Peter.
+Paul er forsigtigere end Peter.|Paul is more careful than Peter.
 Paul er højere end Peter.|Paul is taller than Peter.
 en æske|(small) box, packet, case, шкатулка
 i stykker|broken, in pieces
@@ -868,7 +867,7 @@ en skrue|screw, bolt
 Den man tugter, elsker man.|Caring for a person can be expressed in punishment or harsh treatment of that person.
 Hvad du ikke ved af, har du ikke ondt af.|What you don't know doesn't hurt you. Can be white lies.
 Øvelse gør mester.|Practice makes perfect.
-Hvo intet vover intet vinder.|Who doesn't dare doesn't win.
+Hvo intet vover, intet vinder.|Who doesn't dare doesn't win.
 Tyv tror hver mand stjæler.|Thief thinks every man steals.
 Tale er sølv, tavshed er guld.|Слово — серебро, молчание — золото.
 en glæde|pleasure, happiness, joy
@@ -887,13 +886,13 @@ at sidde i kassen|sit in the cashier booth
 at ekspedere|to serve
 en bamse|teddy bear, stuffed animal
 en bjørn|bear
-en skildpadde|tortise, turtle
+en skildpadde|tortoise, turtle
 Han endte med at købe alle landbrugsdyrene undtagen kyllingerne.|He ended up buying all the farm animals except the chickens.
 at finde ud af|to find out, to understand
 Jeg har ondt i mit ben.|I have a pain in my leg.
 Jeg har en øm finger.|I have a sore finger.
 Jeg har ømme skuldre.|I have sore shoulders.
-Kan du gentale?|Can you repeat?
+Kan du gentage?|Can you repeat?
 nedenunder|below, under
 at mene|to mean, to believe (similar to synes, but with a claim to be truth)
 genert|shy, timid
@@ -909,19 +908,19 @@ Om vinteren er det typisk...|In winter it is usually...
 Det er det samme som…|It is the same as...
 Hvem bor ovenpå dig?|Who lives above you?
 en hylde|shelf
-Jeg bor ved bageri.|I live near the bakery.
+Jeg bor ved bageriet.|I live near the bakery.
 en væg|wall
 en frugtskål|fruit bowl
 en skål|bowl, dish
 indenfor|inside, within
-en øre|ear|øre pronounced as in "høre"
+et øre|ear|øre pronounced as in "høre"
 en numse|butt (children, doctor)
 en røv|ass (in songs, among friends, informal)
-en bagdel|butt (as in "beind", shy, formal)
+en bagdel|butt (as in "behind", shy, formal)
 et ben|leg
 en fod|foot
 historien handler om...|the story is about...
-et skød|laps
+et skød|lap
 en flodhest|hippopotamus
 at sige at|to say that
 afsted|away, off
@@ -994,13 +993,13 @@ at forkæle|to indulge, to spoil, to pamper
 almindelig|common, ordinary, standard
 en tegnefilm|cartoon, animated film
 at planlægge|to plan, to schedule
-en fag|subject, course
+et fag|subject, course
 taknemmelig|grateful
 en forbandelse|curse
 forfærdelig|awful, terrible, horrible
 en tegning|drawing, sketch
 at skatte nogen højt|to treasure
-flest gangen|most times
+de fleste gange|most times
 egen|own
 omvendt|vice versa
 fandme|dammit
@@ -1034,13 +1033,13 @@ uhøflig|rude, impolite
 overordnet|overall, in general
 en aflevering|delivery, assignment
 at fortsætte|to continue, to carry on
-et  geni|genius
+et geni|genius
 en karakter|(school) grade, (human) character
 kæmpe|huge, massive|||3
 en lettelse|relief
 at kaste|to throw, to toss|||2
 heldige dig|lucky you
-sådan en måde|certain way
+sådan en måde|such a way
 spændende|exciting
 spændt|excited, eager
 et menneske|individual, human
@@ -1067,7 +1066,7 @@ bestemt|firmly, decidedly
 aftenen før|the eve of ...|Det var aftenen før festen, og de glædede sig til den. (It was the eve of the party and they were looking forward to it.)
 behagelig|pleasant, comfortable, agreeable|Rummet havde en behagelig temperatur
 lænestol|armchair
-en krydderurt|herbs
+en krydderurt|herb
 blid|soft, tender, gentle
 en redning|rescue, salvation
 lige siden|ever since
@@ -1081,7 +1080,7 @@ at røre sig|to move
 et selskab|company, firm, society
 Når jeg hører ordet supermarked, tænker jeg på..|When I hear the word supermarket, I think of...
 at forestille sig|to imagine, to picture|Jeg forestillede mig, at jeg var en hest.
-Kan du forstille dig at bo i Tyskland?|Can you imagine living in Germany?
+Kan du forestille dig at bo i Tyskland?|Can you imagine living in Germany?
 at knokle|to work hard, to slave
 pokker|damn, hell
 at klare|to manage, to cope
@@ -1090,13 +1089,13 @@ Jeg skal nok give en kop kaffe eller the.|I'll buy you a cup of coffee or tea.
 en undervisning|teaching, instruction, lessons
 nogensinde|ever, in history
 Har du nogensinde været til lægen?|Have you ever been to the doctor?
-sundheds tjek|health check
+sundhedstjek|health check
 en smerte|pain, ache
 det kommer an på|it depends on
 held og lykke|good luck
-en enebær|juniper
+et enebær|juniper
 ene|alone|||2
-et tal|number (mesurement)
+et tal|number (measurement)
 at brække|to break, to fracture
 at ramme|to hit, to strike|Bilen ramte træet||2
 Hvor gammel var du da du brækkede armen?|How old were you when you broke your arm?
@@ -1171,7 +1170,7 @@ at formode|to assume
 min mening|my opinion
 at blive uenig|to disagree
 et hegn|fence
-at trække vejret|to breath
+at trække vejret|to breathe
 kynisk|cynical, cynic
 at håndtere|to handle, to manage, to tackle
 en mark|(farmer) field
@@ -1182,7 +1181,7 @@ beruset|drunk, shitfaced
 at fejre|to celebrate
 en sandhed|truth
 en ugle|owl
-en sikkerhedsforanstaltning|safety measurs, техника безопасности
+en sikkerhedsforanstaltning|safety measures, техника безопасности
 at påvirke|to affect, to impact, to influence
 en pointe|point, point of view, punch line
 som regel|usually, generally, normally
@@ -1201,7 +1200,7 @@ at gætte|to guess
 en knægt|boy, lad, youngster
 en ulykke|accident, crash, emergency
 ulykkelig|miserable, unhappy
-at tage beslutning|to make a decision
+at tage en beslutning|to make a decision
 nu til dags|nowadays, today
 en opfinder|inventor
 en hævn|revenge, retaliation, vengeance
@@ -1211,8 +1210,8 @@ en tyndskid|diarrhea, thin shit
 en vane|habit, custom
 en fødevare|food
 at fornemme|to sense, to feel
-at orke|to have the strenght to
-orker ikke|to not have the strenght to, cannot be bothered
+at orke|to have the strength to
+orker ikke|to not have the strength to, cannot be bothered
 moden|mature, ripe
 umoden|immature, unripe
 en udvikling|development, growth, evolution
@@ -1248,7 +1247,7 @@ at glo|to stare
 at forstyrre|to disturb, to interrupt
 en tvivl|doubt
 en mistillid|distrust, mistrust
-tro på|belief in
+tro på|to believe in
 at findes|to exist
 ligegyldig|unimportant, trivial, indifferent
 vant|accustomed, used to|||2
@@ -1286,7 +1285,7 @@ en evne|ability, power, skill (innate)
 et døgn|24 hours, calendar day, сутки
 i hvilken alder|at what age
 at dedikere|to dedicate
-en dedikation|didication
+en dedikation|dedication
 pinlig|embarrassing
 akavet|awkward
 Hvis bare jeg vidste|If only I knew
@@ -1409,17 +1408,17 @@ en anmeldelse|review
 en genstand|object, item
 stadigvæk|still, yet
 et rumskib|spaceship
-rumvæsnen|alien
+rumvæsen|alien
 at føre an|lead the way
 forvirret|confused
-halvfjerdsere|seventies, 70s
+halvfjerdserne|seventies, 70s
 nysgerrig|curious
 en klage|complaint
 et brokkehoved|person som ofte brokker sig over noget
 tilfældigvis|by chance, by accident
 at kende til|to know about
 en hønsegård|курятник (коллектив женщин)
-omklædnings snak|locker room talk (коллектив мужчин)
+omklædningssnak|locker room talk (коллектив мужчин)
 Jeg keder mig|I am bored
 intet specielt|nothing special
 en sorg|grief, sorrow, mourning
@@ -1441,7 +1440,7 @@ en belønning|reward
 værdifuld|valuable
 en luftfugtighed|humidity
 Hvad minder den dig om?|What does it remind you of?
-snævre|narrow
+snæver|narrow
 Det jeg godt kan lide ved Polen, er...|What I like about Poland is...
 et udseende|physical appearance, look
 en løgner|liar
@@ -1529,7 +1528,7 @@ Det er jeg delvis enig i|I partly agree with that
 Det er jeg ikke enig i, eftersom ...|I disagree with that, because ...
 Det er jeg helt enig i|I completely agree with that
 Efter min mening|In my opinion
-Den vigtigeste er, at ...|The most important is that ...
+Det vigtigste er, at ...|The most important is that ...
 En anden fordel kan være, at ...|Another advantage can be that ...
 på egen hånd|on one's own
 Hvad siger du til ...|What do you think about ..., How about ...
